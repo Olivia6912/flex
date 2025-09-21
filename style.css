@@ -1,0 +1,49 @@
+.row{
+       display:flex;
+       flex:0.4;
+       flex-wrap: wrap;                            
+       gap:20px;
+       background: #0a9ce0;        /* page background */
+    min-height: 100vh;          /* stretch to full height (optional) */
+    box-sizing: border-box;
+    }
+    .box{
+        display:flex;
+                               /* each box takes equal width */
+    height: 120px; 
+    width:200px;             /* box height */
+    color: #fff;                /* text color for contrast */
+    display: flex;              /* center text inside */
+    align-items: center;
+    justify-content: center;
+    font: 600 18px system-ui, sans-serif;
+    border-radius: 8px;
+    border: 5px white solid;
+    margin:20px;
+    position:relative;
+    }
+    .name{
+      display:flex;
+     flex:0.7;
+     background-color:pink ; 
+     flex-direction: column; 
+    }
+    .row2{
+         display:flex;
+         flex:0.4;
+         flex-wrap: wrap;                            
+       gap:20px;
+       background: #e0ae2e;        /* page background */
+    min-height: 100vh;          /* stretch to full height (optional) */
+    box-sizing: border-box;
+    }
+    .header,.footer{
+        background: peachpuff;
+        display:flex;
+        flex:0.15;
+        justify-content:space-evenly;
+    }
+.row,.row2{
+    justify-content: flex-end;
+    
+}
