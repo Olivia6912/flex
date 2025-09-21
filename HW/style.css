@@ -1,0 +1,37 @@
+
+/* p,h4,h1{
+  text-align:center
+}
+body{
+  background:rgb(215, 181, 173);
+  color:rgb(0, 0, 0);
+    
+ 
+}
+img{
+  width:80%;
+  height:40%;
+  border:5px dotted white;
+    border-radius:100px;
+  margin-left:70px; */
+/* } */
+  .row {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 20px;
+  
+}
+
+.box {
+  border: 2px solid #000000;
+  padding: 10px;
+  width: 200px;
+  text-align: center;
+}
+
+.box img {
+  width: 100%;
+  height: auto;
+  margin-top: 5px;
+  border-radius: 6px;
+}
